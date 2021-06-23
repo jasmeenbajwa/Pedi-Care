@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:paddingLeft="20dp"
+android:paddingRight="20dp"
+android:orientation="vertical"
+android:background="@drawable/black_board"
+    >
+<LinearLayout
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:layout_margin="5dp">
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="wrap_content"
+        android:layout_height="105dp"
+        android:src="@drawable/icon" />
+</LinearLayout>
+<LinearLayout
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:layout_margin="5dp">
+
+    <TextView
+        android:id="@+id/qtext"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:text="@string/qtext"
+        android:textAlignment="center"
+        android:textColor="#093145" />
+
+
+</LinearLayout>
+
+<LinearLayout
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:layout_margin="5dp">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="140dp"
+        android:layout_height="40dp"
+        android:text="@string/text"
+        android:textAppearance="@style/lable"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"  />
+
+
+</LinearLayout>
+<LinearLayout
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:layout_margin="5dp">
+    <TextView
+        android:id="@+id/textViewStepCounter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textAppearance="@style/lable2"
+
+        />
+
+
+</LinearLayout>
+
+<LinearLayout
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:layout_margin="5dp">
+
+    <TextView
+        android:id="@+id/textdetect"
+        android:layout_width="140dp"
+        android:layout_height="40dp"
+        android:text="@string/textdetect"
+        android:textAppearance="@style/lable1"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"  />
+
+
+</LinearLayout>
+
+
+<LinearLayout
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:layout_margin="5dp">
+    <TextView
+        android:id="@+id/textViewStepDetector"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textAppearance="@style/lable2"
+
+        />
+</LinearLayout>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="bottom"
+    android:layout_margin="3dp">
+
+
+    <TextView
+        android:id="@+id/copy"
+        style="@style/copy"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_marginBottom="6dp"
+        android:gravity="bottom|center"
+        android:text="@string/copy"></TextView>
+</RelativeLayout>
+</LinearLayout>

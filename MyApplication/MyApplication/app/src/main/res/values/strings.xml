@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My Pedo Fitness </string>
+    <string name="text">STEP COUNTER: </string>
+    <string name="qtext">There is one rule, above all others, for a man. Whatever comes, face it on your feet.</string>
+    <string name="copy">Copyright of Group 1 Inc.</string>
+    <string name="textdetect">STEP DETECTOR: </string>
+</resources>
